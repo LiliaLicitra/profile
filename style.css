@@ -1,0 +1,120 @@
+/* General style rules for fonts and colours */
+body{
+  color: #0C2646;
+  background-color: #828BA0;
+  line-height: 1.8;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 300;
+  font-size: 26px;
+}
+
+h1{
+  color: #1C0A1F;
+  font-size: 40px;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 700;
+}
+
+h2{
+  color: #37143E;
+  font-size: 30px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 600;
+}
+
+h3 {
+  color: #37143E;
+  font-size: 20px;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
+}
+
+a{
+  color: #0C2646;
+  font-family: 'Cormorant Garamond', serif;
+  text-decoration: none;
+  transition: color 0.5s ease;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+a:hover{
+  color: #0C080D;
+  text-decoration: none;
+}
+
+/*Custom design for the container*/
+.container{
+  width: 700px;
+  margin: 40px auto;
+}
+
+/*Responsive design for container*/
+@media(max-width: 960){
+  .container{
+  width: 700px;
+  }
+}
+@media(max-width: 720px){
+  .container{
+  width: 500px;
+  }
+}
+@media(max-width: 540px){
+  .conainer{
+  width: 300px;
+  }
+}
+
+/*Custom design for card magnolia*/
+.card-magnolia{
+  background-color: #F8F0FA;
+  padding: 25px 35px;
+  box-shadow: 0px 10px 30px #0C2646;
+  border-radius: 4px;
+  margin: 35px 0px;
+  text-align: center;
+}
+
+/*Custom design for profile image*/
+.img-circle{
+  border-radius: 90%;
+  border: 2px solid #1C0A1F;
+}
+
+/*Custom design for all the magnolia buttons*/
+.btn-magnolia{
+  background-color: #F8F0FA;
+  color: #828BA0;
+  border: 0.25px solid #828BA0;
+  padding: 10px 15px;
+  border-radius: 4px;
+}
+
+.btn-magnolia:hover{
+  background-color: #F1E0F5;
+  color: #0C2646;
+}
+
+/*Custom design for all the silver icons*/
+.iconssilver{
+  list-style: none;
+  padding-left: 0px;
+}
+.iconssilver li{
+  display: inline;
+  padding: 15px 10px;
+}
+.iconssilver i{
+  font-size: 50px;
+  color: #828BA0;
+  padding: 15px 10px;
+}
+.iconssilver i:hover{
+  color: #37143E;
+}
+
+
+
