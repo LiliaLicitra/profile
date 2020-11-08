@@ -54,17 +54,17 @@ a:hover{
 /*Responsive design for container*/
 @media(max-width: 960){
   .container{
-  width: 700px;
+   width: 700px;
   }
 }
 @media(max-width: 720px){
   .container{
-  width: 500px;
+   width: 500px;
   }
 }
 @media(max-width: 540px){
-  .conainer{
-  width: 300px;
+  .container{
+    width: 300px;
   }
 }
 
