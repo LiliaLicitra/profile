@@ -52,16 +52,22 @@ a:hover{
 }
 
 /*Responsive design for container*/
+
+/* For a screen < 960px, this CSS will be read */
 @media(max-width: 960){
   .container{
    width: 700px;
   }
 }
+
+/* For a screen < 720px, this CSS will be read */
 @media(max-width: 720px){
   .container{
    width: 500px;
   }
 }
+
+/* For a screen < 540px, this CSS will be read */
 @media(max-width: 540px){
   .container{
     width: 300px;
@@ -82,6 +88,7 @@ a:hover{
 .img-circle{
   border-radius: 90%;
   border: 2px solid #1C0A1F;
+  width: 190px;
 }
 
 /*Custom design for all the magnolia buttons*/
