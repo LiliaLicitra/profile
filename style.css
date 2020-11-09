@@ -102,6 +102,7 @@ a:hover{
 
 .btn-magnolia:hover{
   background-color: #F1E0F5;
+  border: 0.25px solid #0C2646;
   color: #0C2646;
 }
 
