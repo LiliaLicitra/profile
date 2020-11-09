@@ -91,6 +91,13 @@ a:hover{
   width: 190px;
 }
 
+/*Custom design for rectangle images*/
+.img-rectangle img{
+   width: 163px;
+   height: 138px;
+   margin: 4px;
+ }
+
 /*Custom design for all the magnolia buttons*/
 .btn-magnolia{
   background-color: #F8F0FA;
