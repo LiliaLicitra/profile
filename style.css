@@ -92,10 +92,10 @@ a:hover{
 }
 
 /*Custom design for rectangle images*/
-.img-rectangle img{
+.img-rectangle{
    width: 163px;
-   height: 138px;
-   margin: 4px;
+   height: 143px;
+   margin: 2px;
  }
 
 /*Custom design for videos*/
