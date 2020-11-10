@@ -53,21 +53,21 @@ a:hover{
 
 /*Responsive design for container*/
 
-/* For a screen < 960px, this CSS will be read */
+/*For a screen < 960px, this CSS will be read*/
 @media(max-width: 960){
   .container{
    width: 700px;
   }
 }
 
-/* For a screen < 720px, this CSS will be read */
+/*For a screen < 720px, this CSS will be read*/
 @media(max-width: 720px){
   .container{
    width: 500px;
   }
 }
 
-/* For a screen < 540px, this CSS will be read */
+/*For a screen < 540px, this CSS will be read*/
 @media(max-width: 540px){
   .container{
     width: 300px;
@@ -97,6 +97,13 @@ a:hover{
    height: 138px;
    margin: 4px;
  }
+
+/*Custom design for videos*/
+.video{
+  width: 230px;
+  height: auto;
+  text-align: center;
+}
 
 /*Custom design for all the magnolia buttons*/
 .btn-magnolia{
