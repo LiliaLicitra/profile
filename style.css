@@ -125,15 +125,18 @@ a:hover{
   list-style: none;
   padding-left: 0px;
 }
+
 .icons-silver li{
   display: inline;
   padding: 15px 10px;
 }
+
 .icons-silver i{
   font-size: 50px;
   color: #828BA0;
   padding: 15px 10px;
 }
+
 .icons-silver i:hover{
   color: #37143E;
 }
@@ -143,17 +146,18 @@ a:hover{
   list-style: none;
   padding-left: 0px;
 }
+
 .icon-magnolia li{
   display: inline;
   padding: 15px 10px;
 }
+
 .icon-magnolia i{
   font-size: 50px;
   color: #F8F0FA;
   padding: 15px 10px;
 }
+
 .icon-magnolia i:hover{
   color: #37143E;
 }
-
-
