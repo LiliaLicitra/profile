@@ -54,7 +54,7 @@ a:hover{
 /*Responsive design for container*/
 
 /*For a screen < 960px, this CSS will be read*/
-@media(max-width: 960){
+@media(max-width: 960px){
   .container{
    width: 700px;
   }
